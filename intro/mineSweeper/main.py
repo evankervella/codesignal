@@ -1,4 +1,4 @@
-def getNeighboors(matrix, i, j):
+def getNeighboors(matrix: list, i: int, j: int) -> list:
     neighboring_cells = []
     for k in [-1, 0, 1]:
         for l in [-1, 0, 1]:
@@ -6,7 +6,7 @@ def getNeighboors(matrix, i, j):
                 neighboring_cells.append(matrix[i+k][j+l])
     return neighboring_cells
     
-def minesweeper(matrix):
+def minesweeper(matrix: list) -> list:
     mines_matrix = []
     for i in range(len(matrix)):
         line = []

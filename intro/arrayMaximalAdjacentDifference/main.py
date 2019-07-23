@@ -1,4 +1,4 @@
-def arrayMaximalAdjacentDifference(inputArray):
+def arrayMaximalAdjacentDifference(inputArray: list) -> int:
     max_diff = 0
     for i in range(len(inputArray)-1):
         if abs(inputArray[i+1]-inputArray[i]) > max_diff:

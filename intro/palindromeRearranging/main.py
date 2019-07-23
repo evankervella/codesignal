@@ -1,4 +1,4 @@
-def palindromeRearranging(inputString):
+def palindromeRearranging(inputString: str) -> bool:
     for char in inputString:
         if inputString.count(char) % 2 == 0:
             inputString = inputString.replace(char,'')

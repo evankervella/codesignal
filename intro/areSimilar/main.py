@@ -1,4 +1,4 @@
-def areSimilar(a, b):
+def areSimilar(a: list, b: list) -> bool:
     if a == b:
         return True
     for i in range(len(a)):

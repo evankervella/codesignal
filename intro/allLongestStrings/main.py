@@ -1,4 +1,4 @@
-def allLongestStrings(inputArray):
+def allLongestStrings(inputArray: list) -> list:
     longest = 0
     for elt in inputArray:
         if len(elt) > longest:

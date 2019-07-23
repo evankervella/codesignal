@@ -1,4 +1,4 @@
-def isLucky(n):
+def isLucky(n: int) -> bool:
     l = list(str(n))
     n1 = l[:int(len(l)/2)]
     n2 = l[int(len(l)/2):]

@@ -1,4 +1,4 @@
-def adjacentElementsProduct(inputArray):
+def adjacentElementsProduct(inputArray: list) -> int:
     n = len(inputArray)
     biggest_product = -1e6
     for i in range(n-1):

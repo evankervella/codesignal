@@ -1,4 +1,4 @@
-def boxBlur(image):
+def boxBlur(image: list) -> list:
     filter_size_h = 3
     filter_size_l = 3
     output_image = []

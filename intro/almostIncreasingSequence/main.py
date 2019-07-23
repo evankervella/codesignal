@@ -1,4 +1,4 @@
-def almostIncreasingSequence(sequence):
+def almostIncreasingSequence(sequence: list) -> bool:
     neg_count = []
     for i in range(len(sequence)-1):
         if sequence[i+1]-sequence[i] <= 0:

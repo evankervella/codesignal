@@ -1,4 +1,4 @@
-def commonCharacterCount(s1, s2):
+def commonCharacterCount(s1: str, s2: str) -> int:
     count = 0
     if len(s1) > len(s2):
         s = list(s1)

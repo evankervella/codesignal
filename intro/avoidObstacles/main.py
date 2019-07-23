@@ -1,4 +1,4 @@
-def avoidObstacles(inputArray):
+def avoidObstacles(inputArray: list) -> int:
     for i in range(1, max(inputArray)):
         dividers = any([x for x in inputArray if not x%i])
         if not dividers:

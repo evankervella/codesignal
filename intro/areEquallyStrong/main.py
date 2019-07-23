@@ -1,2 +1,2 @@
-def areEquallyStrong(yourLeft, yourRight, friendsLeft, friendsRight):
+def areEquallyStrong(yourLeft: int, yourRight: int, friendsLeft: int, friendsRight: int) -> bool:
     return [yourLeft, yourRight] == [friendsLeft, friendsRight] or [yourLeft, yourRight] == [friendsRight, friendsLeft]

@@ -1,4 +1,4 @@
-def isIPv4Address(inputString):
+def isIPv4Address(inputString: str) -> bool:
     input_numbers = inputString.split('.')
     if len(input_numbers) == 4:
         for number in input_numbers:
