@@ -12,6 +12,5 @@ def buildPalindrome(st: str) -> str:
     n = len(st)
     r_st = st[::-1]
     for i in range(n):
-        print(r_st[len(st)-i:])
         if isPalindrome(st+r_st[len(st)-i:]):
             return st+r_st[len(st)-i:]

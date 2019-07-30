@@ -5,12 +5,9 @@ def differentSquares(matrix: list) -> int:
     y = len(matrix[0])
     squares = []
     for i in range(x-h_square+1):
-        print('i', i)
         tmp_matrix = matrix[i:i+h_square]
         for j in range(y-l_square+1):
-            print('j', j)
             square = [line[j:j+l_square] for line in tmp_matrix]
             if square not in squares:
                 squares.append(square)
-    print(squares)
     return len(squares)
