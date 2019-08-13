@@ -36,4 +36,5 @@ the output should be `sudoku(grid) = false`.
 
 The output should be false: each of the nine `3 × 3` sub-grids should contain all of the digits from `1` to `9`.
 These examples are represented on the image below.
+
 ![sudoku](sudoku.png)
