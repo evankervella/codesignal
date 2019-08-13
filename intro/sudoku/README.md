@@ -4,8 +4,7 @@ This algorithm should check if the given grid of numbers represents a correct so
 
 **Example**
 
-    * For
-
+* For
 ```
 grid = [[1, 3, 2, 5, 4, 6, 9, 8, 7],
         [4, 6, 5, 8, 7, 9, 3, 2, 1],
@@ -20,8 +19,7 @@ grid = [[1, 3, 2, 5, 4, 6, 9, 8, 7],
 
 the output should be `sudoku(grid) = true`;
 
-    * For
-
+* For
 ```
 grid = [[1, 3, 2, 5, 4, 6, 9, 2, 7],
         [4, 6, 5, 8, 7, 9, 3, 8, 1],
