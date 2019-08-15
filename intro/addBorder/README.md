@@ -4,11 +4,16 @@ Given a rectangular matrix of characters, add a border of asterisks (`*`) to it.
 
 For
 
-`picture = ["abc", "ded"]`
+```
+picture = ["abc", 
+           "ded"]
+```
 
 the output should be
 
-`addBorder(picture) = ["*****",
-                       "*abc*",
-                       "*ded*",
-                       "*****"]`
+```
+addBorder(picture) = ["*****",
+                      "*abc*",
+                      "*ded*",
+                      "*****"]
+```

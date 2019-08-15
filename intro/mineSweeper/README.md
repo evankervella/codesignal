@@ -4,15 +4,20 @@ In the popular **Minesweeper** game you have a board with some mines and those c
 
 For
 
-`matrix = [[true, false, false],
-           [false, true, false],
-           [false, false, false]]`
+```
+matrix = [[true, false, false],
+         [false, true, false],
+         [false, false, false]]
+```
 
 the output should be
 
-`minesweeper(matrix) = [[1, 2, 1],
-                        [2, 1, 1],
-                        [1, 1, 1]]`
+```
+minesweeper(matrix) = [[1, 2, 1],
+                      [2, 1, 1],
+                      [1, 1, 1]]
+```
 
 Check out the image below for better understanding:
+
 ![mines](mines.png)

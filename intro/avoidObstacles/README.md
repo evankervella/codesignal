@@ -9,4 +9,5 @@ Find the minimal length of the jump enough to avoid all the obstacles.
 For `inputArray = [5, 3, 6, 7, 9]`, the output should be `avoidObstacles(inputArray) = 4`.
 
 Check out the image below for better understanding:
+
 ![obstacles](obstacles.png)

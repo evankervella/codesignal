@@ -7,9 +7,11 @@ Given `matrix`, a rectangular matrix of integers, where each value represents th
 
 * For
 
-`matrix = [[0, 1, 1, 2], 
-           [0, 5, 0, 0], 
-           [2, 0, 3, 3]]`
+```
+matrix = [[0, 1, 1, 2], 
+         [0, 5, 0, 0], 
+         [2, 0, 3, 3]]
+```
 
 the output should be `matrixElementsSum(matrix) = 9`.
 
@@ -19,9 +21,11 @@ There are several haunted rooms, so we'll disregard them as well as any rooms be
 
 * For
 
-`matrix = [[1, 1, 1, 0], 
-           [0, 5, 0, 1], 
-           [2, 1, 3, 10]]`
+```
+matrix = [[1, 1, 1, 0], 
+         [0, 5, 0, 1], 
+         [2, 1, 3, 10]]
+```
 
 the output should be `matrixElementsSum(matrix) = 9`.
 
